@@ -1,4 +1,4 @@
-baseURL = "https://hexec.github.io/blog"
+baseURL = "https://hexec.github.io/blog/"
 languageCode = "en-us"
 title = "Voidblaze blog"
 theme = "monopriv"
