@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hexec.github.io/blog/post/my-first-post/</loc>
+    <loc>https://hexec.github.io/post/my-first-post/</loc>
     <lastmod>2019-12-20T10:00:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hexec.github.io/blog/post/</loc>
+    <loc>https://hexec.github.io/post/</loc>
     <lastmod>2019-12-20T10:00:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hexec.github.io/blog/</loc>
+    <loc>https://hexec.github.io/</loc>
     <lastmod>2019-12-20T10:00:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hexec.github.io/blog/categories/</loc>
+    <loc>https://hexec.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://hexec.github.io/blog/tags/</loc>
+    <loc>https://hexec.github.io/tags/</loc>
   </url>
   
 </urlset>
