@@ -1,0 +1,17 @@
+image: registry.gitlab.com/pages/hugo:latest
+
+pages:
+  before_script:
+    - build.sh
+ script:
+<<<<<<< HEAD
+  - hugo -b https://kskarthik.gitlab.io/monopriv/
+ artifacts:
+=======
+  - build.sh
+  artifacts:
+>>>>>>> e0205d20aa5eff28434f6ae215619fef6fd65ab2
+    paths:
+    - public
+ only:
+    - master
