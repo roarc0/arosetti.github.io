@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:hexec/hexec.github.io.git
 	branch = master
+[submodule "themes/monopriv"]
+	path = themes/monopriv
+	url = https://gitlab.com/kskarthik/monopriv
