@@ -5,7 +5,8 @@
     <link>https://hexec.github.io/</link>
     <description>Recent content on Voidblaze blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>Copyright © 2019–2020</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 10:00:13 +0100</lastBuildDate>
     
 	<atom:link href="https://hexec.github.io/index.xml" rel="self" type="application/rss+xml" />
