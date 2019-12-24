@@ -11,13 +11,13 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 #googleAnalytics = "UA-123-45"
-disqusShortname = "Voidblaze"
+disqusShortname = "paradoxstream"
 
 [params]
 about = "My personal blog"
 img = "img/logo.jpg"
 github = "https://github.com/voidblaze"
-gitlab = "https://gitlab.com/voidblaze"
+gitlab = "https://gitlab.com/alessandro-rosetti"
 email = "alessandro.rosetti@gmail.com"
 
 metadesc = ""
