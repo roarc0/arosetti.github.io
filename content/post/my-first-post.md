@@ -9,16 +9,20 @@ in this blog I'd like to record a few interesting findings about programming.
 
 ## Test paragraph
 
-Test **bold**.
-Test *italic*. 
+Test __bold__.
 
-> blockquote text
-> again
-> and again
-> and again again again
+Test *italic*.
 
-Images: (yep it's missing)
-![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+## Blockquotes ?
+
+> blockquote text.
+> again.
+> and again.
+> and again again again.
+
+Images:
+
+![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg =96x)
 
 ***
 
@@ -31,13 +35,22 @@ Test :
 
 ### Code
 
-``
+```c++
 #include<iostream>
 
 int main(int argc, char** argv) {
   cout << "yo" << endl;
 }
-``
+```
+
+And here we go!.
+
+```go
+func GetTitleFunc(style string) func(s string) string {
+  fmt.Println("wtf")
+  return "wtf"
+}
+```
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
