@@ -1,4 +1,65 @@
-baseURL = "https://hexec.github.io"
-languageCode = "en-us"
+baseURL = "https://voidblaze.github.io"
+languageCode = "en"
 title = "Voidblaze blog"
 theme = "monopriv"
+
+author = "Alessandro Rosetti"
+copyright = "Copyright © 2019–2020"
+paginate = 3
+
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+#googleAnalytics = "UA-123-45"
+disqusShortname = "Voidblaze"
+
+[params]
+about = "My personal blog"
+img = "img/logo.jpg"
+github = "https://github.com/voidblaze"
+gitlab = "https://gitlab.com/voidblaze"
+email = "alessandro.rosetti@gmail.com"
+
+metadesc = ""
+metakeys = "programming"
+
+disqus = true
+analytics = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
