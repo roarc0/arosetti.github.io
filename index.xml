@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Voidblaze blog</title>
-    <link>https://hexec.github.io/</link>
+    <link>https://voidblaze.github.io/</link>
     <description>Recent content on Voidblaze blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2019–2020</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 10:00:13 +0100</lastBuildDate>
     
-	<atom:link href="https://hexec.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://voidblaze.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://hexec.github.io/post/my-first-post/</link>
+      <link>https://voidblaze.github.io/post/my-first-post/</link>
       <pubDate>Fri, 20 Dec 2019 10:00:13 +0100</pubDate>
       
-      <guid>https://hexec.github.io/post/my-first-post/</guid>
+      <guid>https://voidblaze.github.io/post/my-first-post/</guid>
       <description>#Hello World
 ###Hi everyone! blkfalkdsfjskldf Test :
  1 abafasf 2 slkfajsf 3 fslakjkf  bye!</description>
