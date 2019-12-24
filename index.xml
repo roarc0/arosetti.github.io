@@ -19,11 +19,13 @@
       
       <guid>https://voidblaze.github.io/post/my-first-post/</guid>
       <description>Hello everyone, in this blog I&#39;d like to record a few interesting findings about programming.
-Test paragraph Test bold. Test italic.
- blockquote text again and again and again again again
- Images: (yep it&#39;s missing)  Test :
- 1 abafasf 2 slkfajsf 3 fslakjkf   Code `` #includeint main(int argc, char** argv) { cout &amp;laquo; &amp;ldquo;yo&amp;rdquo; &amp;laquo; endl; } ``
-My favorite search engine is Duck Duck Go.</description>
+Test paragraph Test bold.
+Test italic.
+Blockquotes ?  blockquote text. again. and again. and again again again.
+ Images:
+![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg =96x)
+ Test :
+ 1 abafasf 2 slkfajsf 3 fslakjkf   Code #include&amp;lt;iostream&amp;gt; int main(int argc, char** argv) { cout &amp;lt;&amp;lt; &amp;#34;yo&amp;#34; &amp;lt;&amp;lt; endl; } And here we go!.</description>
     </item>
     
   </channel>
