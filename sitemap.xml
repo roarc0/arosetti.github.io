@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://voidblaze.github.io/post/my-first-post/</loc>
-    <lastmod>2019-12-20T10:00:13+01:00</lastmod>
+    <loc>https://voidblaze.github.io/post/</loc>
+    <lastmod>2019-12-26T11:58:45+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://voidblaze.github.io/post/</loc>
-    <lastmod>2019-12-20T10:00:13+01:00</lastmod>
+    <loc>https://voidblaze.github.io/post/video-test/</loc>
+    <lastmod>2019-12-26T11:58:45+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://voidblaze.github.io/</loc>
+    <lastmod>2019-12-26T11:58:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://voidblaze.github.io/about/</loc>
+    <lastmod>2019-12-24T18:52:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://voidblaze.github.io/post/my-first-post/</loc>
     <lastmod>2019-12-20T10:00:13+01:00</lastmod>
   </url>
   

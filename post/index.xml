@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2019–2020</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 10:00:13 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 11:58:45 +0100</lastBuildDate>
     
 	<atom:link href="https://voidblaze.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Video Test</title>
+      <link>https://voidblaze.github.io/post/video-test/</link>
+      <pubDate>Thu, 26 Dec 2019 11:58:45 +0100</pubDate>
+      
+      <guid>https://voidblaze.github.io/post/video-test/</guid>
+      <description>This is a youtubue video test
+  </description>
+    </item>
     
     <item>
       <title>My First Post</title>
