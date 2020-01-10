@@ -9,7 +9,7 @@ in this blog I'd like to record a few interesting findings about programming.
 
 ## Test paragraph
 
-Test __bold__.
+Test ***bold***.
 
 Test *italic*.
 
@@ -20,16 +20,29 @@ Test *italic*.
 > and again.
 > and again again again.
 
+hmm...
+
+## Shortcodes
+
+This year is : {{< year >}}
+
+wtf
+
 Images:
 
-![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg =96x)
+![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+
+
+{{< figure src="https://seeklogo.com/images/G/go-logo-046185B647-seeklogo.com.png" alt="gopher" >}}
+
+{{< imgproc gopher Resize "300x" />}}
 
 ***
 
-Test : 
-  - 1 abafasf
-  - 2 slkfajsf
-  - 3 fslakjkf
+Test :
+  - 1 First
+  - 2 Second
+  - 3 Third
 
 ---
 
