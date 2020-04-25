@@ -14,7 +14,7 @@ footnoteReturnLinkContents = "^"
 disqusShortname = "paradoxstream"
 
 [params]
-about = "My personal blog"
+about = "I'm a Software Engineer"
 img = "img/logo.jpg"
 github = "https://github.com/arosetti"
 gitlab = "https://gitlab.com/arosetti"
