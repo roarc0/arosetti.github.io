@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
 set -e
 
-printf "\031[0;32mDeploying updates to GitHub...\033[0m\n"
+echo "\031[0;32mDeploying updates to GitHub...\033[0m\n"
 
 hugo
 

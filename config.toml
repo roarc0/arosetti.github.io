@@ -1,11 +1,11 @@
-baseURL = "https://voidblaze.github.io"
+baseURL = "https://arosetti.github.io"
 languageCode = "en"
-title = "Voidblaze blog"
+title = "Alessandro Rosetti's blog"
 theme = "monopriv"
 
 author = "Alessandro Rosetti"
 copyright = "Copyright © 2019–2020"
-paginate = 3
+paginate = 5
 
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -16,8 +16,8 @@ disqusShortname = "paradoxstream"
 [params]
 about = "My personal blog"
 img = "img/logo.jpg"
-github = "https://github.com/voidblaze"
-gitlab = "https://gitlab.com/alessandro-rosetti"
+github = "https://github.com/arosetti"
+gitlab = "https://gitlab.com/arosetti"
 email = "alessandro.rosetti@gmail.com"
 
 metadesc = ""
