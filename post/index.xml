@@ -25,7 +25,7 @@ Blockquotes ?  blockquote text. again. and again. and again again again.
  Shortcodes This year is : 2020
 wtf
 Images:
-Resize   *** Test : - 1 First - 2 Second - 3 Third --- ### Code ```c++ #include int main(int argc, char** argv) { cout      </description>
+  *** Test : - 1 First - 2 Second - 3 Third --- ### Code ```c++ #include int main(int argc, char** argv) { cout      </description>
     </item>
     
   </channel>
