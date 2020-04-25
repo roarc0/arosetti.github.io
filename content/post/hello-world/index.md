@@ -1,6 +1,6 @@
 ---
-title: "My First Post"
-date: 2019-12-20T10:00:13+01:00
+title: "Hello world!"
+date: 2020-04-25T10:11:36+01:00
 draft: false
 ---
 
@@ -20,8 +20,6 @@ Test *italic*.
 > and again.
 > and again again again.
 
-hmm...
-
 ## Shortcodes
 
 This year is : {{< year >}}
@@ -32,10 +30,14 @@ Images:
 
 ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
 
+{{< imgproc gopher Resize "100x" />}}
 
-{{< figure src="https://seeklogo.com/images/G/go-logo-046185B647-seeklogo.com.png" alt="gopher" >}}
+This is the shortcode used in the examples above:
 
-{{< imgproc gopher Resize "300x" />}}
+{{< code file="layouts/shortcodes/imgproc.html" >}}
+{{< readfile file="layouts/shortcodes/imgproc.html" >}}  
+{{< /code >}}
+
 
 ***
 
@@ -67,5 +69,9 @@ func GetTitleFunc(style string) func(s string) string {
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
-
 bye!
+
+This is a youtubue video test
+
+{{< youtube dQw4w9WgXcQ >}}
+

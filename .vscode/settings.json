@@ -1,0 +1,8 @@
+{
+  "html.format.indentHandlebars": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.enable": false,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": false,
+}
