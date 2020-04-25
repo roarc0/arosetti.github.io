@@ -14,10 +14,10 @@
     
     <item>
       <title>Hello world!</title>
-      <link>https://arosetti.github.io/post/1_hello-world/</link>
+      <link>https://arosetti.github.io/post/hello-world/</link>
       <pubDate>Sat, 25 Apr 2020 10:11:36 +0100</pubDate>
       
-      <guid>https://arosetti.github.io/post/1_hello-world/</guid>
+      <guid>https://arosetti.github.io/post/hello-world/</guid>
       <description>Hello everyone, in this blog I&amp;rsquo;d like to record a few interesting findings about programming.
 Test paragraph Test bold.
 Test italic.
@@ -25,7 +25,8 @@ Blockquotes ?  blockquote text. again. and again. and again again again.
  Shortcodes This year is : 2020
 wtf
 Images:
-  *** Test : - 1 First - 2 Second - 3 Third --- ### Code ```c++ #include int main(int argc, char** argv) { cout      </description>
+  .Resize &#34;100x&#34;    This is the shortcode used in the examples above:
+layouts/shortcodes/imgproc.html  {{ $original := .Page.Resources.GetMatch (printf &amp;#34;*%s*&amp;#34; (.Get 0)) }} {{ $command := .</description>
     </item>
     
   </channel>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta name="description" content=''>
+	<meta name="keywords" content='programming'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href='https://arosetti.github.io/css/bootstrap.min.css'>
+	<title>Hello world!</title>
+	<nav class="navbar text-center sticky-top bg-white mt-2 mb-1">
+		<a href='https://arosetti.github.io'><span class="btn btn-sm btn-outline-primary">Home</span></a>
+		<a href='https://arosetti.github.io/about'><span class="btn btn-sm btn-outline-secondary">About</span></a>
+		<a href='https://arosetti.github.io/post'><span class="btn btn-sm btn-outline-success">Blog</span></a>
+		<a href='https://arosetti.github.io/tags'><span class="btn btn-sm btn-outline-warning">Tags</span></a>
+	</nav>
+</head>
+<body>
+      <div id="content">
+
+
+	<section class="container text-monospace text-justified mt-3">
+	  <h2>Hello world!</h2>
+	  <small class="text-secondary mb-5">Posted on April 25, 2020 | 2 minute read</small>
+	  <p><p>Hello everyone,
+in this blog I&rsquo;d like to record a few interesting findings about programming.</p>
+<h2 id="test-paragraph">Test paragraph</h2>
+<p>Test <em><strong>bold</strong></em>.</p>
+<p>Test <em>italic</em>.</p>
+<h2 id="blockquotes-">Blockquotes ?</h2>
+<blockquote>
+<p>blockquote text.
+again.
+and again.
+and again again again.</p>
+</blockquote>
+<h2 id="shortcodes">Shortcodes</h2>
+<p>This year is : 2020</p>
+<p>wtf</p>
+<p>Images:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Tux, the Linux mascot"></p>
+
+
+
+
+
+
+
+
+
+
+<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+    <img style="max-width: 100%; width: auto; height: auto;" src="/post/hello-world/gopher_huadbb59b0131ac447dbf498f5080815b6_34168_100x0_resize_box_2.png" width="100" height="100">
+    <figcaption>
+        <small>
+			
+			.Resize "100x"
+			
+		</small>
+    </figcaption>
+</figure>
+<p>This is the shortcode used in the examples above:</p>
+
+
+
+
+
+
+
+
+
+
+<div class="code relative" id="layouts/shortcodes/imgproc.html"><div class="filename san-serif f6 dib lh-solid pl2 pv2">layouts/shortcodes/imgproc.html</div>
+		<button class="needs-js copy bg-accent-color-dark f6 absolute top-0 right-0 lh-solid hover-bg-primary-color-dark bn white ph3 pv2" title="Copy this code to your clipboard." data-clipboard-action="copy" aria-label="copy button">
+		</button>
+		
+	
+	<div class="code-copy-content nt3" >
+	  	<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template">
+<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$original</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">.Page.Resources.GetMatch</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">printf</span> <span style="color:#e6db74">&#34;*%s*&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">.Get</span> <span style="color:#a6e22e">0</span><span style="color:#f92672">))</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$command</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">.Get</span> <span style="color:#a6e22e">1</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$options</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">.Get</span> <span style="color:#a6e22e">2</span> <span style="color:#75715e">}}</span>
+
+<span style="color:#75715e">{{</span> <span style="color:#66d9ef">if</span> <span style="color:#66d9ef">eq</span> <span style="color:#a6e22e">$command</span> <span style="color:#e6db74">&#34;Fit&#34;</span> <span style="color:#75715e">}}</span>
+	<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Scratch.Set</span> <span style="color:#e6db74">&#34;image&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">$original</span><span style="color:#a6e22e">.Fit</span> <span style="color:#a6e22e">$options</span><span style="color:#f92672">)</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#66d9ef">eq</span> <span style="color:#a6e22e">$command</span> <span style="color:#e6db74">&#34;Resize&#34;</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Scratch.Set</span> <span style="color:#e6db74">&#34;image&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">$original</span><span style="color:#a6e22e">.Resize</span> <span style="color:#a6e22e">$options</span><span style="color:#f92672">)</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#66d9ef">eq</span> <span style="color:#a6e22e">$command</span> <span style="color:#e6db74">&#34;Fill&#34;</span> <span style="color:#75715e">}}</span>
+	<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Scratch.Set</span> <span style="color:#e6db74">&#34;image&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">$original</span><span style="color:#a6e22e">.Fill</span> <span style="color:#a6e22e">$options</span><span style="color:#f92672">)</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#66d9ef">else</span> <span style="color:#75715e">}}</span>
+	<span style="color:#75715e">{{</span> <span style="color:#a6e22e">errorf</span> <span style="color:#e6db74">&#34;Invalid image processing command: Must be one of Fit, Fill or Resize.&#34;</span> <span style="color:#75715e">}}</span>
+<span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span>
+
+<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$image</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">.Scratch.Get</span> <span style="color:#e6db74">&#34;image&#34;</span> <span style="color:#75715e">}}</span>
+
+&lt;<span style="color:#f92672">figure</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;padding: 0.25rem; margin: 2rem 0; background-color: #cccc&#34;</span>&gt;
+    &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;max-width: 100%; width: auto; height: auto;&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$image</span><span style="color:#a6e22e">.RelPermalink</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$image</span><span style="color:#a6e22e">.Width</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$image</span><span style="color:#a6e22e">.Height</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;
+    &lt;<span style="color:#f92672">figcaption</span>&gt;
+        &lt;<span style="color:#f92672">small</span>&gt;
+			<span style="color:#75715e">{{</span> <span style="color:#66d9ef">with</span> <span style="color:#a6e22e">.Inner</span> <span style="color:#75715e">}}</span>
+			<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.</span> <span style="color:#75715e">}}</span>
+			<span style="color:#75715e">{{</span> <span style="color:#66d9ef">else</span> <span style="color:#75715e">}}</span>
+			.<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$command</span> <span style="color:#75715e">}}</span> &#34;<span style="color:#75715e">{{</span> <span style="color:#a6e22e">$options</span> <span style="color:#75715e">}}</span>&#34;
+			<span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span>
+		&lt;/<span style="color:#f92672">small</span>&gt;
+    &lt;/<span style="color:#f92672">figcaption</span>&gt;
+&lt;/<span style="color:#f92672">figure</span>&gt;  
+</code></pre></div>
+	</div>
+
+</div>
+
+<hr>
+<p>Test :</p>
+<ul>
+<li>1 First</li>
+<li>2 Second</li>
+<li>3 Third</li>
+</ul>
+<hr>
+<h3 id="code">Code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">int</span> argc, <span style="color:#66d9ef">char</span><span style="color:#f92672">**</span> argv) {
+  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;yo&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
+}
+</code></pre></div><p>And here we go!.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetTitleFunc</span>(<span style="color:#a6e22e">style</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;wtf&#34;</span>)
+  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;wtf&#34;</span>
+}
+</code></pre></div><p>My favorite search engine is <a href="https://duckduckgo.com" title="The best search engine for privacy">Duck Duck Go</a>.</p>
+<p>bye!</p>
+<p>This is a youtubue video test</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</p>
+	  <code>tags:
+	  </code>
+	  <div class="container mt-2" id="comments">
+	    
+	      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "paradoxstream" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	    
+	  </div>
+	</section>
+
+
+
+      </div>
+  </body><footer>
+  <div class="container-fluid bg-dark text-white text-monospace text-center mt-4">
+    <small>Copyright © 2019–2020 | Powered by <a href="https://gohugo.io">Hugo</a></small>
+  </div>
+  
+</footer>
+</html>
