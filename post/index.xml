@@ -7,23 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2019–2020</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 10:00:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 10:11:36 +0100</lastBuildDate>
     
 	<atom:link href="https://arosetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://arosetti.github.io/post/my-first-post/</link>
-      <pubDate>Fri, 20 Dec 2019 10:00:13 +0100</pubDate>
+      <title>Hello world!</title>
+      <link>https://arosetti.github.io/post/1_hello-world/</link>
+      <pubDate>Sat, 25 Apr 2020 10:11:36 +0100</pubDate>
       
-      <guid>https://arosetti.github.io/post/my-first-post/</guid>
+      <guid>https://arosetti.github.io/post/1_hello-world/</guid>
       <description>Hello everyone, in this blog I&amp;rsquo;d like to record a few interesting findings about programming.
 Test paragraph Test bold.
 Test italic.
 Blockquotes ?  blockquote text. again. and again. and again again again.
- Shortcodes This year is : 2020 wtf
-Images:</description>
+ Shortcodes This year is : 2020
+wtf
+Images:
+Resize   *** Test : - 1 First - 2 Second - 3 Third --- ### Code ```c++ #include int main(int argc, char** argv) { cout      </description>
     </item>
     
   </channel>

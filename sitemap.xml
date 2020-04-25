@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://arosetti.github.io/post/1_hello-world/</loc>
+    <lastmod>2020-04-25T10:11:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arosetti.github.io/post/</loc>
+    <lastmod>2020-04-25T10:11:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://arosetti.github.io/about/</loc>
     <lastmod>2019-12-24T18:52:50+01:00</lastmod>
   </url>
@@ -10,16 +20,6 @@
   <url>
     <loc>https://arosetti.github.io/</loc>
     <lastmod>2019-12-24T18:52:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://arosetti.github.io/post/my-first-post/</loc>
-    <lastmod>2019-12-20T10:00:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://arosetti.github.io/post/</loc>
-    <lastmod>2019-12-20T10:00:13+01:00</lastmod>
   </url>
   
   <url>
