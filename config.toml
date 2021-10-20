@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Alessandro Rosetti's blog"
 theme = "monopriv"
 
-author = "Alessandro Rosetti"
+author = "roarc"
 copyright = "Copyright © 2019–2020"
 paginate = 5
 
@@ -11,13 +11,13 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 #googleAnalytics = "UA-123-45"
-disqusShortname = "paradoxstream"
+disqusShortname = "arosetti.github.io"
 
 [params]
 about = "Software Engineer"
 img = "image/logo.jpg"
 github = "https://github.com/arosetti"
-gitlab = "https://gitlab.com/arosetti"
+gitlab = "https://gitlab.com/roarc"
 email = "alessandro.rosetti@gmail.com"
 
 metadesc = ""
