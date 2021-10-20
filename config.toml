@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 #googleAnalytics = "UA-123-45"
-disqusShortname = "arosetti.github.io"
+disqusShortname = "arosetti-github-io"
 
 [params]
 about = "Software Engineer"
