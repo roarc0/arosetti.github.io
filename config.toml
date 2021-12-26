@@ -1,6 +1,6 @@
 baseURL = "https://arosetti.github.io"
 languageCode = "en"
-title = "Alessandro Rosetti's blog"
+title = "roarc-blog"
 theme = "monopriv"
 
 author = "roarc"

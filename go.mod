@@ -1,3 +1,3 @@
 module github.com/arosetti/arosetti.github.io
 
-go 1.14
+go 1.17
